@@ -89,6 +89,22 @@
   .contact-btn:hover {
     background: #e68a00;
   }
+
+  /* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+}
   
   /*                                    banner Section                               */
   /* =============================================================================== */
